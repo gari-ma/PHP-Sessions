@@ -5,4 +5,41 @@
 
 body{
     background: linear-gradient(to right,pink,brown);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.user{
+    width: 70%;
+    height: 30px;
+    border: 2px dotted blue;
+    background-color: thistle;
+    margin: 50px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.match{
+    width: 50%;
+    border: 3px solid green;
+    background-color: rgb(235, 198, 153);
+    height: 25px;
+    text-align: center;
+    color: navy;
+    font-size: 20px ;
+    font-weight: bolder;
+}
+.box{
+    border: 4px solid palevioletred;
+    border-radius: 10px;
+    color: black;
+    width: 60%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:  plum; 
+
 }
