@@ -1,0 +1,59 @@
+body {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.form {
+    background-color: aquamarine;
+    border: 1px dotted black;
+    margin-top: 2rem;
+    margin-left: 5rem ;
+    margin-right: 5rem;
+    padding:1rem;
+
+}
+p{
+    display: flex;
+    justify-content: center;
+
+    font-size: 25px;
+
+}
+
+.username {
+    padding: 8px;
+    margin: 8px;
+    background-color: white;
+    color:darkred;
+    align-items:center;
+
+}
+
+.password {
+    padding: 8px;
+    margin: 8px;
+    background-color: white;
+    color:darkred;
+    align-items:center;
+
+}
+button{
+    font-size: 15dp;
+    background-color: lightpink;
+
+    padding:10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+button:hover{
+    background-color: darkorange;
+
+}
+.foot{
+    font-size: 10px;
+}

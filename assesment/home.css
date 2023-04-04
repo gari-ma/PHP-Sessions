@@ -1,0 +1,12 @@
+.body{
+    background-color: cadetblue;
+
+}
+.head{
+    background-color: #ffc0cb;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction:column;
+    
+    }
