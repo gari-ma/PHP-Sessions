@@ -24,7 +24,7 @@ $password = $_GET["password"];
     if($username=="admin" || $password=="admin"){
 ?>
 <body>
-    <div class="head">
+    <div class="admin">
         <h1>Garima Bhattarai</h1>
         <a href="index.php">logout</a>
         <hr>
@@ -36,12 +36,14 @@ $password = $_GET["password"];
     }
     else {
     ?>
-    <div class="head">
-    <h1>Garima Bhattarai</h1>
+    <div class="user">
+    <h1>Hello User</h1>
     <hr>
+    <div class="box">
     <p>Incorrect credentials</p>
     <br>
-    <a href="index.php">login</a>
+    <a href="index.php">Try again</a>
+    </div>
 <?php
 }
 ?>
